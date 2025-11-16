@@ -1,0 +1,235 @@
+{
+  "categories": [
+    {
+      "id": 1763307325261,
+      "name": "Main",
+      "description": "Primary menu",
+      "display_order": 1,
+      "is_active": true,
+      "image_url": "",
+      "created_at": "2025-11-16T15:35:25.261Z",
+      "updated_at": "2025-11-16T15:35:25.261Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1763308339873,
+      "name": "tacos",
+      "description": "tacos poulet ou bien viand hachee et Mixte",
+      "price": 30,
+      "category_id": 1763307325261,
+      "ingredients": [],
+      "options": [],
+      "preparation_time": 15,
+      "is_available": true,
+      "image_url": "/api/uploads/1763308910875_111-1113769_french-tacos-hd-png-download.webp",
+      "created_at": "2025-11-16T15:52:19.873Z",
+      "updated_at": "2025-11-16T16:48:21.192Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 5,
+      "order_number": "FMMI20GXPR",
+      "customer_info": {
+        "name": "tacos",
+        "phone": "+212615165433",
+        "address": "naaim sidi baba meknes",
+        "delivery_method": "delivery",
+        "notes": ""
+      },
+      "items": [
+        {
+          "product": {
+            "id": 1763308339873,
+            "name": "tacos",
+            "description": "tacos poulet ou bien viand hachee et Mixte",
+            "price": 30,
+            "category_id": 1763307325261,
+            "ingredients": [],
+            "options": [],
+            "preparation_time": 15,
+            "is_available": true,
+            "image_url": "/api/uploads/1763308910875_111-1113769_french-tacos-hd-png-download.webp",
+            "created_at": "2025-11-16T15:52:19.873Z",
+            "updated_at": "2025-11-16T16:48:21.192Z"
+          },
+          "quantity": 1,
+          "customizations": {
+            "نوع اللحم": "دجاج",
+            "بطاطس": "نعم",
+            "نوع الصوص": "مايونيز"
+          },
+          "unit_price": 30,
+          "subtotal": 30
+        }
+      ],
+      "total_price": 30,
+      "status": "pending",
+      "payment_method": "cash",
+      "payment_details": {},
+      "created_at": "2025-11-16T17:50:14.703Z",
+      "updated_at": "2025-11-16T17:50:14.703Z"
+    },
+    {
+      "id": 4,
+      "order_number": "FMMI1ZO75E",
+      "customer_info": {
+        "name": "Bilal Elbakkaly",
+        "phone": "+212644100401",
+        "address": "naaim sidi baba meknes",
+        "delivery_method": "delivery",
+        "notes": ""
+      },
+      "items": [
+        {
+          "product": {
+            "id": 1763308339873,
+            "name": "tacos",
+            "description": "tacos poulet ou bien viand hachee et Mixte",
+            "price": 30,
+            "category_id": 1763307325261,
+            "ingredients": [],
+            "options": [],
+            "preparation_time": 15,
+            "is_available": true,
+            "image_url": "/api/uploads/1763308910875_111-1113769_french-tacos-hd-png-download.webp",
+            "created_at": "2025-11-16T15:52:19.873Z",
+            "updated_at": "2025-11-16T16:48:21.192Z"
+          },
+          "quantity": 1,
+          "customizations": {
+            "نوع اللحم": "دجاج",
+            "نوع الصوص": "ألجيريان",
+            "البطاطس": "مع البطاطس"
+          },
+          "unit_price": 30,
+          "subtotal": 30
+        }
+      ],
+      "total_price": 30,
+      "status": "pending",
+      "payment_method": "cash",
+      "payment_details": {},
+      "created_at": "2025-11-16T17:27:53.906Z",
+      "updated_at": "2025-11-16T17:27:53.906Z"
+    },
+    {
+      "id": 3,
+      "order_number": "FMMI1ZE0P2",
+      "customer_info": {
+        "name": "Bilal Elbakkaly",
+        "phone": "+212644100401",
+        "address": "naaim sidi baba meknes",
+        "delivery_method": "delivery",
+        "notes": ""
+      },
+      "items": [
+        {
+          "product": {
+            "id": 1763308339873,
+            "name": "tacos",
+            "description": "tacos poulet ou bien viand hachee et Mixte",
+            "price": 30,
+            "category_id": 1763307325261,
+            "ingredients": [],
+            "options": [],
+            "preparation_time": 15,
+            "is_available": true,
+            "image_url": "/api/uploads/1763308910875_111-1113769_french-tacos-hd-png-download.webp",
+            "created_at": "2025-11-16T15:52:19.873Z",
+            "updated_at": "2025-11-16T16:48:21.192Z"
+          },
+          "quantity": 1,
+          "customizations": {},
+          "unit_price": 30,
+          "subtotal": 30
+        }
+      ],
+      "total_price": 30,
+      "status": "ready",
+      "payment_method": "cash",
+      "payment_details": {},
+      "created_at": "2025-11-16T17:19:58.982Z",
+      "updated_at": "2025-11-16T17:27:19.051Z"
+    },
+    {
+      "id": 2,
+      "order_number": "FMMI1WMW6R",
+      "customer_info": {
+        "name": "Bilal Elbakkaly",
+        "phone": "+212644100401",
+        "address": "naaim sidi baba meknes",
+        "delivery_method": "delivery",
+        "notes": ""
+      },
+      "items": [
+        {
+          "product": {
+            "id": 1763308339873,
+            "name": "tacos",
+            "description": "tacos",
+            "price": 30,
+            "category_id": 1763307325261,
+            "ingredients": [],
+            "options": [],
+            "preparation_time": 15,
+            "is_available": true,
+            "image_url": "/api/uploads/1763308910875_111-1113769_french-tacos-hd-png-download.webp",
+            "created_at": "2025-11-16T15:52:19.873Z",
+            "updated_at": "2025-11-16T16:01:54.054Z"
+          },
+          "quantity": 1,
+          "customizations": {},
+          "unit_price": 30,
+          "subtotal": 30
+        }
+      ],
+      "total_price": 30,
+      "status": "pending",
+      "payment_method": "cash",
+      "payment_details": {},
+      "created_at": "2025-11-16T16:02:54.195Z",
+      "updated_at": "2025-11-16T16:02:54.195Z"
+    },
+    {
+      "id": 1,
+      "order_number": "FMMI1VOJI9",
+      "customer_info": {
+        "name": "Bilal Elbakkaly",
+        "phone": "+212615165433",
+        "address": "naaim sidi baba meknes",
+        "delivery_method": "delivery",
+        "notes": ""
+      },
+      "items": [
+        {
+          "product": {
+            "id": 1,
+            "name": "Unknown Product",
+            "description": "",
+            "price": 45,
+            "image_url": "",
+            "category_id": 0,
+            "ingredients": [],
+            "options": [],
+            "is_available": true,
+            "preparation_time": 0,
+            "created_at": "2025-11-16T15:36:11.457Z",
+            "updated_at": "2025-11-16T15:36:11.457Z"
+          },
+          "quantity": 1,
+          "customizations": {},
+          "unit_price": 45,
+          "subtotal": 45
+        }
+      ],
+      "total_price": 45,
+      "status": "pending",
+      "payment_method": "cash",
+      "payment_details": {},
+      "created_at": "2025-11-16T15:36:11.457Z",
+      "updated_at": "2025-11-16T15:36:11.457Z"
+    }
+  ]
+}

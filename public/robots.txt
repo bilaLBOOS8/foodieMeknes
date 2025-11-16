@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://foodiemeknes.com/sitemap.xml
+
+# Block admin pages
+Disallow: /admin/
+Disallow: /api/admin/
+
+# Crawl delay
+Crawl-delay: 1
