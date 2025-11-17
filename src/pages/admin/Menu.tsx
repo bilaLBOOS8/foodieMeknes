@@ -50,7 +50,8 @@ const AdminMenu: React.FC = () => {
         options: formData.options ? JSON.parse(formData.options) : [],
         preparation_time: parseInt(formData.preparation_time),
         is_available: formData.is_available,
-        image_url: formData.image_url || 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=food%20plate%20with%20delicious%20meal&image_size=square'
+        image_url: formData.image_url || '/default-food.jpg'
+
       }
 
       if (editingProduct) {
