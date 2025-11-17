@@ -67,8 +67,8 @@ const Home: React.FC = () => {
             <div className="relative">
               <div className="bg-white rounded-2xl p-8 shadow-2xl">
                 <img
-                  src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=delicious%20assorted%20fast%20food%20burger%20fries%20drink%20arranged%20beautifully&image_size=square"
-                  alt="Delicious Food"
+                image_url: formData.image_url || '/default-food.jpg'
+
                   className="w-full h-64 object-cover rounded-lg"
                 />
                 <div className="absolute -top-4 -right-4 bg-yellow-400 text-yellow-900 px-4 py-2 rounded-full font-bold">
